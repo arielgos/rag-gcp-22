@@ -17,7 +17,7 @@ from langchain_text_splitters import MarkdownHeaderTextSplitter
 
 from database import init_db, get_db_connection
 
-app = FastAPI(title="Gemini Cloud Run RAG")
+app = FastAPI(title="RAG + GCP")
 
 # Add CORS middleware
 app.add_middleware(
